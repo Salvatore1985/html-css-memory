@@ -8,3 +8,56 @@
     display: table;
     clear: both;
 }
+body{
+    background-color: #ADD8E6;
+    
+
+}
+#balloon ,#bicycle ,#cruise ,#submarine{
+    border-radius: 5px;
+    background-color:white ;
+    
+   
+    
+    
+}
+.container{
+    height: 1400px;
+    width: 90%;
+    margin: 50px auto;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 90px;
+}
+
+.cards{
+    height: 100%;
+    
+    
+}
+.col{
+    width: 250px;
+    margin: 10px;
+    float: left;
+}
+.card{
+    height: 250px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+#balloon {
+    background-image: url(../img/noun_air_balloon_3134741.png);
+    
+}
+#bicycle {
+    background-image: url(../img/noun_Bicycle_3134821.png);
+}
+#cruise {
+    background-image: url(../img/noun_Cruise_Ship_3134824.png)
+} 
+#submarine{
+    background-image: url(../img/noun_Submarine_3134738.png);
+}
