@@ -10,19 +10,26 @@
 }
 body{
     background-color: #ADD8E6;
-    
-
+    font-family: "Nerko One";
 }
-#balloon ,#bicycle ,#cruise ,#submarine{
+
+.visibily img{
     border-radius: 5px;
     background-color:white ;
+    height: 80%;
+    width: 100%;
+    padding: 45px;
     
-   
-    
-    
+     
+}
+.title{
+    width: 100%;
+    height: 20%;
+    background-color:white ;
+    padding: auto;
 }
 .container{
-    height: 1400px;
+    height: 1200px;
     width: 90%;
     margin: 50px auto;
 }
@@ -32,32 +39,42 @@ h1{
     font-size: 90px;
 }
 
-.cards{
+.cards {
     height: 100%;
+    
     
     
 }
 .col{
     width: 250px;
-    margin: 10px;
+    margin: 20px;
     float: left;
+    
 }
-.card{
+.card {
     height: 250px;
     width: 100%;
     background-position: center;
     background-size: cover;
+    position: relative;
 }
-#balloon {
-    background-image: url(../img/noun_air_balloon_3134741.png);
+.pattern  {
+    background-image: url(../img/pattern.png);
+    background-color: white;
     
 }
-#bicycle {
-    background-image: url(../img/noun_Bicycle_3134821.png);
+.card:hover .visibily{
+    visibility: visible;
+    
 }
-#cruise {
-    background-image: url(../img/noun_Cruise_Ship_3134824.png)
-} 
-#submarine{
-    background-image: url(../img/noun_Submarine_3134738.png);
+.title{
+position: absolute;
+bottom: 0;
+text-align: center;
+color: violet;
+font-size: 50px;
+
+}
+.visibily{
+    visibility: hidden;
 }
